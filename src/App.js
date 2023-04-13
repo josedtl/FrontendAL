@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import { About } from './components/About';
 import { User } from './components/User';
@@ -11,7 +11,8 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div className="container p-4">
+      <div className='container p-4'>
+
         <Routes>
           <Route path="/" element={<User />} />
           <Route path="/ejemplo" element={<Ejemplo />} />
